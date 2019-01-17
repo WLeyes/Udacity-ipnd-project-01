@@ -537,7 +537,7 @@ ul > li {
   flex-wrap: nowrap;
   justify-content: flex-start;
   width: 100%;
-  max-width: 1200px;
+  max-width: 320px;
   padding: 10px;
   background: rgba(245, 245, 245, 0.9);
   border-radius: 0.25em;
@@ -558,6 +558,10 @@ ul > li {
 
 [class^=img--] {
   margin-bottom: 1.6875em;
+}
+
+.img--frame {
+  max-width: 300px;
 }
 
 /*# sourceMappingURL=styles.css.map */
