@@ -1,0 +1,13 @@
+.container {
+}
+.card {
+  @include flex(row) {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+}
+
+.inner-box {
+  padding: em(10px);
+  border: 1px solid $silver-chalace;
+}
