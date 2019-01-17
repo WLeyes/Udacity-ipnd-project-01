@@ -4,12 +4,13 @@
   flex-wrap: nowrap;
   justify-content: flex-start;
   width: 100%;
-  max-width: $max-width;
   padding: 10px;
   background: rgba(245, 245, 245, 0.9);
   border-radius: 0.25em;
   transition: 0.4s ease-out;
   overflow: hidden;
+  max-width: $max-width;
+  margin: 0 auto;
   @include media-query(medium) {
     width: 80%;
     -webkit-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
